@@ -11,7 +11,7 @@ function App() {
       <div className="col-span-3 p-2">
         <LocationSearch onPlaceClick={(p) => setPlace(p)} />
       </div>
-      <div col-span-9>
+      <div className="col-span-9">
         <Map place={place} />
       </div>
     </div>
